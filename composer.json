@@ -1,0 +1,27 @@
+{
+    "name": "rtfm/rtfm",
+    "description": "RTF Manager - read and create RTF documents",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Elsodaney",
+            "email": "adam.elso@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/filesystem": "~2.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
